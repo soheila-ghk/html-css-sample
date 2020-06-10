@@ -1,0 +1,390 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+.container{
+    margin: 50px 150px 50px 150px;
+    font-family: sans-serif;
+    color:#00001a;
+}
+#header-image{
+    text-align: center;
+    background-image: url('./images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 55vh;
+    border-radius: 4px;
+    padding-top: 6.1vw;
+    box-shadow: 0px 15px 10px -5px  #a5a573;
+}
+#title{
+    color: white;
+    margin-top: 6vh;
+    font-size: 2.5vw;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.button{
+    color: white;
+    padding: 1.25vw 3vw;
+    background-color: #ff3300; 
+    border-radius: 4px;
+    border: none;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-top: 3vw;
+}
+nav{
+    display: inline-block;
+}
+.header-list{
+    display: inline;
+}
+a{
+    padding: 1.25vw 1.25vw;
+    text-decoration: none;
+    color:#666666;
+}
+#register-button{
+    border-radius: 50px;
+    background-color:#e6e6e6; 
+    padding: .3vw 1.5vw;
+    margin-right: .625vw;
+    border: none;
+    font-size: 1vw;
+}
+#D-in-logo{
+    color: #ff471a;
+}
+#header-top{
+    margin-bottom: 3em;
+}
+#header-top-right{
+float: right;
+margin-top: .5vw;
+}
+.flex-container{
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    justify-content: space-between;
+    /*flex-grow: 1;*/
+}
+#intro-content{
+    margin-right: 10px;
+    width: 415px;
+}
+#intro-img{
+    width: 500px;
+    height: 400px;
+}
+p{
+    font-size: 1.3vw;
+    line-height: 1.6;
+}
+.product-img{
+    background-color: #d1e0e0;
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.product-header{
+    /*
+    At width-screen 1300-1240 the second cell jumps up
+    */
+    display: grid;
+    /*
+    Why does not this one below get the same res?
+    grid-template-columns: 20% 1fr;    
+    */
+    grid-template-columns: 1fr 75%;
+    grid-column-gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    /* Still icons are not centered */
+    align-content: center;
+}
+h1{
+    font-size: 2.0vw;
+    margin-top: 5px;
+}
+h5{
+    letter-spacing: 2.5px;
+    font-size: 1.25vw;
+    margin-bottom: 0;
+    color:#666666;
+}
+.product-titles{
+    font-size: 1.8vw;
+    font-weight: 550;
+}
+.cell{
+    position: relative;
+}
+ .three-cell{
+    max-width:330px;
+}
+.cell a{
+    padding: 0;
+    font-weight: 700;
+    color: #000099;
+    font-size: 1.4vw;
+}
+i{
+    font-size: 2vw;
+    padding-top: 1.25vw;
+    color:  #000099;
+}
+section{
+    margin-top: 9.1vw;
+}
+#service-section-ul li{
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+.service-info{
+    max-width:40.6vw; 
+}
+.check-icon{
+    font-size: 1.5vw;
+    padding-left: 0;
+    padding-right: 2.25vw;
+    color: #0d0d0d;
+}
+#learn-button-service{
+    background-color: white;
+    color: #3d5c5c;
+    border: 2px solid #3d5c5c;
+    margin-left: 1vw;
+}
+.blue-btn{
+    background-color:#000099;
+    box-shadow: 0px 15px 10px -5px #a5a573;
+}
+.service-btn{
+    margin-top: .625vw;
+}
+hr{
+    background-color:#e6e6e6;
+    border: none;
+    height: 2px; 
+}
+.study-qoute{
+    font-size: 1.5vw;
+    line-height: 1.3;
+    margin: 2.5vw 0;
+}
+.study-section-p{
+    font-size: 1.4vw;
+    /* width: 615px; */
+}
+#section-study-left-cell{
+    max-width: 39vw;
+    padding-right: 2px;
+}
+#section-study-right-cell{
+    max-width: 25vw;
+}
+#first-study-qoute{
+    margin-top: 1.5vw;
+}
+.plan-cards{
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    width:22.1vw;
+    border: 2px solid #e6e6e6;
+    box-shadow: 2px 0 10px 5px #e6e6e6;
+    margin: 20px 0;
+}
+.plan-cards h1{
+    font-size: 3vw;
+    color: #000099;
+    font-weight: 600;
+    margin: 15px 0;
+}
+#contact-link{
+    color: #000099;
+    text-decoration: #000099;
+}
+.price-section-p-month{
+    color: #666666;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+.plan-cards ul li{
+    font-size: 1.3vw;
+    line-height: 1.2;
+    font-weight: 500;
+    padding: 0;
+}
+.price-section-check-icon{
+    font-size: 1.6vw;
+    padding-left: 0;
+    padding-right: 20px;
+    color: #000099;
+}
+.plan-cards-ul-container{
+    text-align: left;
+    margin-left: 2.5vw;
+}
+
+.free-trial{
+    border: 2px solid #dcdcbc;
+    color:#444422;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin: 50px 20px 0px;
+    font-size: 1vw;
+}
+#middle-plan-card{
+    width: 26.2vw;
+    background-color: #000099;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+}
+#middle-plan-card h1{
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+}
+#middle-plan-card li{
+    color: white;
+    font-size: 1.25vw;
+    line-height: 1.2;
+    font-weight: 500;
+    padding: 0;
+}
+.price-section-middlecard-check-icon{
+    color: white;
+}
+#middle-card-ul-container{
+    margin-left: 5.6vw;   
+}
+#middle-card-free-trial{
+    margin: auto;
+    padding: 1vw 2.5vw;
+    border: none;
+    color: #000099;
+    font-size: 1vw;
+    margin: 130px 20px 20px;
+}
+#first-free-trial{
+    margin-top: 170px;
+}
+.contact-icon{
+    margin-right: 1.25vw;
+    font-size: 1.5vw;
+    color:#666666;
+    padding-top: 5px;
+}
+.contact-info{
+    line-height: normal;
+    margin: 5px 0;
+    font-weight: 600;
+}
+#contact-btn{
+    margin: auto;
+
+}
+#atsign{
+    padding-top: 0;
+}
+.press-cell{
+    position: relative;
+    width: 360px;
+}
+#middle-cell-press{
+    margin: 0 30px;
+}
+.news-title{
+    font-size: 1.6vw;
+    line-height: normal;
+}
+.time {
+    color:#666666;
+    font-size: 1vw;
+    margin: 0;
+}
+.clock-icon{
+    padding-top: .25vw;
+    margin-right: 5px;
+    font-size: 1.2vw;
+}
+.submit-part{
+    padding: 2vw 1.25vw;
+    border: none;
+    background-color: #d1e0e0;
+    
+}
+
+#email-input{
+    font-size: 1.2vw;
+    color:#333333;
+    width: 25vw;
+}
+#submit{
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #0000b3;
+    width: 11.25vw;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:#00001a;
+    color: white;
+    margin: 0;
+}
+.whole-bloody-thing{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* margin: 0;
+    padding: 0; */
+    /* width: 100%; */
+}
+.video-container{
+    position: relative;
+    overflow: hidden;
+    width:500px;
+    /* padding-top: 56.25%; */
+}
+.video-container iframe{
+    /*
+    border-radius doesn't work properly in iframe 
+    */
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height:550px; 
+    padding-top: 1.75vw; 
+}
+.inline-display{
+    display: inline;
+}
+.justify-left{
+    justify-content: left;
+}
