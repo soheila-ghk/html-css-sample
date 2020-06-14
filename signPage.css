@@ -1,0 +1,192 @@
+.container{
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    flex-direction: row;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+p{
+    margin: 0;
+}
+fieldset, form{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 515px;
+    min-height: 100%;
+    color: #935C6C;
+    background-color:#F1CDD7;
+}
+header{
+    padding: 30px 60px 0px;
+}
+
+h1{
+    color: #865C6C;
+    font-size: 26px;
+}
+h3:hover{
+    color: #865C6C;
+}
+.designer{
+    padding: 0px 60px 30px;
+}
+.intro a{
+    color: #935C6C;
+    text-decoration: rgb(153, 51, 102);
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+h3{
+    color: #CBA5B1;
+}
+.img-container{
+    align-items: center;
+    min-width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+span{
+  font-size: 15px;  
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 9;
+    padding: 0px 20px;
+    margin: 0;
+}
+.sds{
+    width: 400px;
+    height:auto;
+}
+.sds h2{
+    margin-top: 0;
+}
+.intro-img{
+    max-width: 100%;
+    height: auto;
+}
+.sign-up-laptop{
+    justify-content: flex-end;
+    text-align: right;
+    display: flex;
+    flex: 1;
+    margin-right: 0;
+
+}
+.sign-in a{
+    color: mediumblue;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.sign-in a:hover{
+    opacity: 70%;
+}
+.sign-up-mobile{
+    display: none;
+}
+.input-title{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+input{
+    box-sizing: border-box;
+    display: block;
+    min-width:100%;
+    border: none;
+    background-color:#f2f2f2;
+    padding: 11px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.btn{
+    border-radius: 10px;
+    font-weight: 600;
+}
+.sub-btn{
+    padding: 12px 40px;
+    background-color: #ED699C;
+    color: white;
+    border: none;
+    width: 50%;
+}
+.ref{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.mobile-logo{
+    display: none;
+    color: black;
+}
+hr{
+    width: 45%;
+    color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+}
+.or{
+    display: flex;
+    color: #808080;
+}
+@media screen and (max-width: 950px) {
+    .intro{
+        display: none;
+    }
+    .mobile-logo{
+        display: flex;
+        align-self: center;
+        text-align: center;
+    }
+    .sub-btn{
+        width: 100%;
+    }
+     .sign-in{
+         flex-direction: column-reverse;
+         justify-content: flex-start;
+         align-items: center;
+    } 
+    .sign-up-laptop{
+        align-items: flex-start;
+        text-align: center;
+        flex: 2;
+    }
+    .form-container{
+        justify-content: center;
+        padding-bottom: 0px;
+        flex: 1;
+        padding: 0px 20px 20px;
+        max-width: 416px;
+        width: 100%;
+    }
+    .sds{
+        width: 100%;
+    }
+}
